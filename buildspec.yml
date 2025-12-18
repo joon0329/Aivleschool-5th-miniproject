@@ -4,11 +4,9 @@ phases:
   install:
     runtime-versions:
       java: corretto21
-
   build:
     commands:
       - chmod +x gradlew
-      - echo "Start build"
       - ./gradlew clean build
 
 artifacts:
