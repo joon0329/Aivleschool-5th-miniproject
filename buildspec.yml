@@ -1,0 +1,11 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Start build"
+      - ./gradlew clean build
+
+artifacts:
+  files:
+    - build/libs/*.jar
