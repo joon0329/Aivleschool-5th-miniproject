@@ -1,8 +1,9 @@
+# appspec.yml
 version: 0.0
 os: linux
 
 files:
-  - source: build/libs
+  - source: .
     destination: /home/ec2-user/app
 
 hooks:
