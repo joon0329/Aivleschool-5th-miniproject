@@ -1,8 +1,7 @@
 #!/bin/bash
 
 APP_DIR=/home/ec2-user/app
-JAR_DIR=$APP_DIR/build/libs
-JAR_NAME=$(ls $JAR_DIR/*.jar | head -n 1)
+JAR_NAME=$(ls $APP_DIR/*.jar | head -n 1)
 
 echo "배포 시작"
 echo "JAR = $JAR_NAME"
