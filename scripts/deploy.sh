@@ -19,3 +19,4 @@ if [ -n "$PID" ]; then
 fi
 
 nohup java -jar $JAR_NAME > $APP_DIR/app.log 2>&1 &
+##
