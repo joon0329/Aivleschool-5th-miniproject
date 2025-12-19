@@ -14,3 +14,4 @@ fi
 
 # 새 앱 실행
 nohup java -jar $JAR_NAME > app.log 2>&1 &
+# ///
